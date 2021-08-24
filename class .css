@@ -1,0 +1,41 @@
+/* div{
+    border: 2px solid black;
+    padding: 5px;
+    height: 200px;
+    width: 400px;
+    margin:auto;
+    margin-top: 100px;
+    background-color: hotpink;
+    transition: transform 2s;
+}
+div:hover{
+    transform: rotateX(3turn);
+} */
+h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: gray;
+    text-align: center;
+    animation-name:head ;
+}
+@keyframes head {
+    100%{
+        
+    }
+    
+}
+.outer-circle{
+    height: 350px;
+    width: 350px;
+    border-radius: 50%;
+    background-color: aqua;
+    margin: auto;
+    margin-top: 150px;
+}
+.inner-circle{
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    background-color: hotpink;
+    margin:auto;
+}
+
